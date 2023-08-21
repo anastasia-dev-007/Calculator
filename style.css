@@ -7,10 +7,12 @@
     outline: none;
 }
 
-.container {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    background-color: #ecf0f3;
 }
 
 .calculator {
